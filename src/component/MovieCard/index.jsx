@@ -9,6 +9,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import Grid from '@mui/material/Grid';
 import Chip from '@mui/material/Chip';
 
+
 export default function MovieCard({movie}) {
 
   const { title, images: { jpg: { image_url } }, season, source, score, duration } = movie;
